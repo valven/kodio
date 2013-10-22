@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:plus="http://schemas.android.com/apk/res/com.valven.kodio"
+    android:background="@drawable/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/speakers_title_bg"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="8dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/clock_icon" />
+
+        <com.valven.kodio.component.CustomTextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            plus:customFont="NoticiaText-Regular.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dip"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip" >
+
+        <com.valven.kodio.component.ProfilePictureView
+            android:id="@+id/image"
+            android:layout_width="@dimen/profile_picture"
+            android:layout_height="@dimen/profile_picture"
+            android:adjustViewBounds="true"
+            android:background="@drawable/image_bg"
+            android:padding="5dip"
+            android:scaleType="fitCenter"
+            />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical" >
+
+            <com.valven.kodio.component.CustomTextView
+                android:id="@+id/speaker_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:textSize="19sp"
+                android:textColor="@color/speakers_list_row_name"
+                plus:customFont="TisaPro-Regular.otf" />
+
+            <com.valven.kodio.component.CustomTextView
+                android:id="@+id/speaker_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:textSize="16sp"
+                android:textColor="@color/speakers_list_row_info"
+                plus:customFont="TisaPro-Regular.otf" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="8dip"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+</LinearLayout>

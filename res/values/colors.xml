@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_text">#ffffff</color>
+    <color name="splash_date">#89bcaf</color>
+    <color name="splash_place">#fd4100</color>
+    <color name="splash_text_bg">#80000000</color>
+    
+    <color name="header_bg">#eb5e32</color>
+    <color name="list_bg">#c8d1be</color>
+    <color name="detail_bg">#e6e6e6</color>
+    
+    <color name="detail_title">#4d4d4d</color>
+    <color name="detail_speech_title">#ed582a</color>
+    <color name="detail_time">#595959</color>
+    <color name="detail_text">#323232</color>
+    
+    <color name="speakers_title_bg">#71756c</color>
+    <color name="speakers_sub_header_bg">#303030</color>
+    <color name="speakers_list_row_name">#000000</color>
+    <color name="speakers_list_row_info">#4d4d4d</color>
+      
+</resources>

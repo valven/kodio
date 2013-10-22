@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:plus="http://schemas.android.com/apk/res/com.valven.kodio"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".SplashActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_margin="32dp"
+        android:layout_weight="0.5"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="48dip"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/rounded_corder"
+        android:orientation="vertical"
+        android:padding="32dip" >
+
+        <com.valven.kodio.component.CustomTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="4dip"
+            android:text="@string/splash_1"
+            android:textColor="@color/splash_text"
+            android:textSize="20sp"
+            plus:customFont="NoticiaText-Regular.ttf" />
+
+        <com.valven.kodio.component.CustomTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:text="@string/splash_2"
+            android:textColor="@color/splash_date"
+            android:textSize="20sp"
+            plus:customFont="NoticiaText-Regular.ttf" />
+
+        <com.valven.kodio.component.CustomTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="8dip"
+            android:text="@string/splash_3"
+            android:textColor="@color/splash_place"
+            android:textSize="20sp"
+            plus:customFont="NoticiaText-Regular.ttf" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/developed_by" />
+
+</LinearLayout>

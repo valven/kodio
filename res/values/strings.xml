@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">kod.io</string>
+    
+    <string name="title_speakers">Speakers</string>
+    <string name="title_location">Location</string>
+    <string name="title_organizers">Main Organizers</string>
+    
+    <string name="title_bio">Bio</string>
+    <string name="title_speech_info">Speech Info</string>
+    
+    <string name="splash_1">Developer Conference</string>
+    <string name="splash_2">October 26, 2013</string>
+    <string name="splash_3">Istanbul / Turkey</string>
+    
+    <string name="no_connection">You need Internet connection to use the application.</string>
+
+</resources>

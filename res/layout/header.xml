@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:plus="http://schemas.android.com/apk/res/com.valven.kodio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp" >
+
+        <ImageView
+            android:id="@+id/leftIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_bg"
+            android:padding="12dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/centerIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/small_logo" />
+
+        <ImageView
+            android:id="@+id/rightIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_bg"
+            android:baselineAlignBottom="false"
+            android:padding="12dp"
+            android:scaleType="fitCenter" />
+
+    </RelativeLayout>
+
+    <com.valven.kodio.component.CustomTextView
+        android:id="@+id/subheader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/header"
+        plus:customFont="NoticiaText-Regular.ttf" />
+
+</LinearLayout>

@@ -4,6 +4,8 @@
     android:versionCode="5"
     android:versionName="1.0.4" >
 
+    <!-- VALVEN'de calismak/staj yapmak istiyorsan CV'ni ik [at] valven.com adresine ilani gordugun yeri belirterek gonder -->
+
     <uses-sdk
         android:minSdkVersion="9"
         android:targetSdkVersion="14" />
